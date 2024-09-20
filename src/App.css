@@ -1,0 +1,40 @@
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  background-color: #d7cbcb;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#quote-box #text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+#quote-box #author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+button {
+  float: right;
+  padding: 8px;
+}
+
+a {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
